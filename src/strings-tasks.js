@@ -131,10 +131,7 @@ function removeTrailingWhitespaces(value) {
  *   repeatString('abc', -2) => ''
  */
 function repeatString(str, times) {
-  if (times <= 0) {
-    return '';
-  }
-  return str.repeat(times);
+  return times <= 0 ? '' : str.repeat(times);
 }
 
 /**
