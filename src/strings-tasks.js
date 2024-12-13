@@ -188,10 +188,9 @@ function sumOfCodes(str) {
     return 0;
   }
 
-  const strLen = str.length;
   let result = 0;
 
-  for (let i = 0; i < strLen; i += 1) {
+  for (let i = 0; i < str.length; i += 1) {
     // Add every character code for letters
     result += str.charCodeAt(i);
   }
